@@ -1,9 +1,8 @@
-
 /**
 	Released under MIT License
 	
-	Copyright (c) 2010 Christian Brassat
-	<http://crshd.cc>
+	Copyright (c) 2016 Manojit Ballav
+	<http://manojitballav.ml>
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
 	of this software and associated documentation files (the "Software"), to deal
@@ -26,24 +25,24 @@
 
 body {
 	background: #151515;										/* Page background */
-	color: #999;														/* Font color */
+	color: white;														/* Font color */
 	padding: 150px;													/* Padding between link blocks and edge */
-	font-family: "Museo", "Helvetica Neue", sans-serif;	/* Font */
+	font-family: "Helvetica Neue", sans-serif;	/* Font */
 	text-shadow: rgba(0,0,0,0.6) 1px 1px 0; /* Text Shadow */
 }
 
 a {
-	color: #999;														/* Link Color */
-	font-size: 21px;												/* Link Size */
+	color: white;														/* Link Color */
+	font-size: 12px;												/* Link Size */
 	text-decoration: none;									/* Remove underlines */
 }
 
 a:hover {
-	color: #ddd;														/* Link hover color */
+	color: #00ff00;														/* Link hover color in the rgb format*/
 }
 
 .block {
-	border-left: 1px solid #999;						/* Left border of link block */
+	border-left: 1px solid white;						/* Left border of link block */
 	float: left;
 	padding: 1em;														/* Padding around link block */
 	width: 160px;														/* Link block width */
@@ -51,11 +50,11 @@ a:hover {
 
 h1 {
 	margin: 0;
-	font-size: 1.5em;												/* Title size */
+	font-size: 2 em;												/* Title size */
 }
 
 ul {
-	padding: 0.25em;
+	padding: 1.25em;
 }
 
 ul li {
@@ -70,11 +69,14 @@ li img {
 	vertical-align: middle;
 }
 
-#searches {
-	position: absolute;											/* Position search box */
-	top: 2em;																/*		from top edge */
-	right: 2em;															/*		from right edge */
-}
+/* Position search box */
+/* from top edge */
+/*		from right edge */
+/*#searches {
+	position: absolute;											
+	top: 2em;																
+	right: 2em;															
+}*/
 
 #clock {
 	position: absolute;
@@ -86,28 +88,33 @@ li img {
 form {
 	margin-top: 1em;
 }
-
+/* Border search box */
+/* Shadow search box - webkit */
+/* Shadow search box - gecko */
+/* Shadow search box - generic */
+/* Text color search box */
+/*Text Size search box*/
 form input {
 	background: #333;												/* Background search box */
-	background: -webkit-gradient(						/*		gradient for webkit */
+	background: -webkit-gradient(						/*gradient for webkit */
 		linear,
 		left top,
 		left bottom,
 		from(#222),
 		to(#333));
-	background: -moz-linear-gradient(				/*		gradient for gecko */
+	background: -moz-linear-gradient(				/*gradient for gecko */
 		top,
 		#222,
 		#333);
-	border: 1px solid #444;									/* Border search box */
-	-webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 2px;	/* Shadow search box - webkit */
-	-moz-box-shadow: rgba(0,0,0,0.2) 0 1px 2px;			/* Shadow search box - gecko */
-	box-shadow: rgba(0,0,0,0.2) 0 1px 2px;					/* Shadow search box - generic */
-	color: #ddd;														/* Text color search box */
-	font-size: 1em;													/* Text size search box */
+	border: 1px solid #444;									
+	-webkit-box-shadow: rgba(0,0,0,0.2) 0 1px 2px;	
+	-moz-box-shadow: rgba(0,0,0,0.2) 0 1px 2px;			
+	box-shadow: rgba(0,0,0,0.2) 0 1px 2px;					
+	color: #ddd;														
+	font-size: 1em;													
 }
 
-form input:first-child {
+/*form input:first-child {
 	-webkit-border-top-left-radius: 5px;
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
@@ -115,9 +122,9 @@ form input:first-child {
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border-right: 0;
-}
+}*/
 
-form input:last-child {
+/*form input:last-child {
 	-webkit-border-top-right-radius: 5px;
 	-webkit-border-bottom-right-radius: 5px;
 	-moz-border-radius-topright: 5px;
@@ -125,6 +132,7 @@ form input:last-child {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	border-left: 0;
-}
+}*/
+/*Backgroud provided by Alexander*/
 /* cc BY-NC-SA License :: k3ttc4r :: 2008 :: http://k3ttc4r.deviantart.com */
 /* background by Alexander-GG :: http://alexander-gg.deviantart.com */
