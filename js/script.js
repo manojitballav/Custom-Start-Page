@@ -38,7 +38,6 @@ var settings = {
 			["http://www.dict.cc", "s", "dict.cc", "sd"],
 			["http://dict.leo.org", "search", "leo", "sl"],
 			["http://www.flickr.com/search", "q", "flickr", "sf"],
-			["http://browse.deviantart.com/", "q", "deviantArt", "sa"]
 		],
 		"focusSearch": false
 	},*/
